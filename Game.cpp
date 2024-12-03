@@ -8,7 +8,7 @@ void Game::initWindow()
     this->window->setFramerateLimit(144);
     this->window->setVerticalSyncEnabled(false);
 }
-//random
+//rand
 
 void Game::initTextures()
 {
