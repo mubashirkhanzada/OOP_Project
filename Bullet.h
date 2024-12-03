@@ -3,7 +3,7 @@
 
 #include<SFML/Graphics.hpp>
 #include<iostream>
-
+//random
 class Bullet
 {
 private:
