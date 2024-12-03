@@ -37,7 +37,7 @@ WelcomeScreen::WelcomeScreen(float width, float height) : selectedOptionIndex(0)
         }
     }
 }
-
+// for drawing
 void WelcomeScreen::draw(sf::RenderWindow& window) {
     window.draw(this->background);  // Draw the background first
     window.draw(this->title);
@@ -45,7 +45,7 @@ void WelcomeScreen::draw(sf::RenderWindow& window) {
         window.draw(option);
     }
 }
-
+// for movement
 void WelcomeScreen::moveUp() {
     if (selectedOptionIndex - 1 >= 0) {
         options[selectedOptionIndex].setFillColor(sf::Color::White);
